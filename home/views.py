@@ -7,7 +7,6 @@ def home(request):
 def about(request):
     return HttpResponse("<h1> Solution about</h1>")
 
-
-#def contact(request):
- #   return HttpResponse("<h1> Solution about</h1>")
+def contact(request):
+    return HttpResponse("<h1> Solution contact</h1>")
 # Create your views here.
